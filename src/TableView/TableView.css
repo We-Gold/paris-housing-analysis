@@ -1,0 +1,18 @@
+table {
+	border-collapse: collapse;
+	overflow: hidden;
+}
+
+th,
+td {
+	text-align: left;
+	font-size: 12px;
+	padding: 8px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+th {
+	border-bottom: 1px solid rgb(190, 190, 190);
+}
+
