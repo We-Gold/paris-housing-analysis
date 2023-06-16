@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import { csv } from 'd3'
 
-const csvUrl = "/data/ParisHousingClass.csv"
+const csvUrl = "./data/ParisHousingClass.csv"
 
 export const useData = () => {
     const [data, setData] = useState()
