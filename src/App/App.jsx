@@ -29,8 +29,8 @@ function App() {
 					distrubuted.
 					<br />
 					<br />
-					It is a classification dataset, with `category` being the
-					classification target (0 = Basic, 1 = Luxury).
+					It is a classification dataset, with <em>category</em> being
+					the classification target (0 = Basic, 1 = Luxury).
 				</p>
 			</Container>
 			<Container>
@@ -45,11 +45,11 @@ function App() {
 					<br />
 					<br />
 					Notably, these three are binary features, indicating that a
-					decision tree will likely be sufficient for the model.
+					decision tree will likely be appropriate for the model.
 					<br />
 					<br />
 					Unrelated to the classification task, price and squareMeters
-					are perfectly correlated, once again indicating that this
+					are perfectly correlated, another indicator that this
 					dataset is artificially generated.
 				</p>
 			</Container>
@@ -60,7 +60,7 @@ function App() {
 				<h2 className="textbox">Decision Tree</h2>
 				<p className="textbox">
 					After filtering out any features we deem not beneficial to
-					our model, we can choose a sample of our dataset and train
+					our model, we can choose a sample from our dataset and train
 					the decision tree from it.
 					<br />
 					<br />
